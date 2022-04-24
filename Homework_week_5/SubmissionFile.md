@@ -146,7 +146,7 @@ Save and submit the completed file for your homework submission.
 
 7. Create a user with `sudo useradd attacker` and produce an audit report that lists account modifications:
 
-    ![pic](images\Add_Attacker.png)
+    ![pic](images/Add_Attacker.png)
 
 8. Command to use `auditd` to watch `/var/log/cron`:
 
