@@ -43,6 +43,13 @@
 
 ### Bonus Task 5: Submit a screenshot of the contents of one of your transcribed PowerShell logs or a copy of one of the logs.
 
+    Screenshots of logs. Txt file of logs in this same folder as this submission file
+
+![pic](Images/Powershell_logs_1.PNG)
+![pic](Images/Powershell_logs_2.PNG)
+![pic](Images/Powershell_logs_3.PNG)
+
+
 
 ---
 
