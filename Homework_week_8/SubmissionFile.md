@@ -23,7 +23,7 @@
     Command to run SYN SCAN:
     sudo nmap -sS 161.35.96.20
 
-![pic](Images\Syn_scan.PNG)
+![pic](Images/Syn_scan.PNG)
 
     Port 22 is open to ssh protocol.
     A firewall or two factor authentication should be here.
