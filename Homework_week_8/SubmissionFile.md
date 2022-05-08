@@ -25,7 +25,7 @@
 
 ![pic](Images/Syn_scan.PNG)
 
-    Port 22 is open to ssh protocol.
+    Port 22 is open to TCP protocol and SSH service.
     A firewall or two factor authentication should be here.
     SYN SCAN runs on OSI layer 4.
 
