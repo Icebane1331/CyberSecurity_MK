@@ -71,7 +71,7 @@
 ![pic](Images/Arp.PNG)
 ![pic](Images/Hacker_Got_the_Blues.PNG)
 
-    The Arp level intrustion is in between level 2 and 3 on the OSI and the HTTP is on layer 7 at the application level.
+    The Arp level intrusion is in between level 2 and 3 on the OSI and the HTTP is on layer 7 at the application level.
 
 
 ---
