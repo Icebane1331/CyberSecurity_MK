@@ -12,7 +12,7 @@
 ![pic](Images/Mailserver_lookup.PNG)
 
     
-    The resistance is not recieving any mail cause the new servers are not listed on the MX record page for their domain account. 
+    The resistance is not receiving any mail because the new servers are not listed on the MX record page for their domain account. 
     To fix the issue they need to add asltx.l.google.com and asltx.2.google.com to their MX record page. 
     An example of what it should look like after a nslookup is as follows:
 
@@ -53,7 +53,7 @@
 
 ![pic](Images/CName.PNG)
 
-    resistance.theforce.net is not being redirected cause it's not listed in the CNAME for theforce.net. 
+    resistance.theforce.net is not being redirected because it's not listed in the CNAME for theforce.net. 
     To fix this issue, under the Non-authoritative answer there should be a line that reads:
 
     www.theforce.net	      canonical name = resistance.theforce.net.
@@ -71,7 +71,7 @@
 
 ![pic](Images/Leia.PNG)
 
-    The backup DNS server is not on the list in the above screenshot does not have ns2.galaxybackup.com on the list. 
+    The backup DNS server is not on the list in the above screenshot and does not have ns2.galaxybackup.com on the list. 
     Once it is added to the list there should be a line as follows:
 
     princessleia.site	nameserver = ns2.galaxybackup.com.
