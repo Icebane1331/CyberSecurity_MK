@@ -85,6 +85,7 @@
     Batuu > D > C > E > F > J > I > L > Q > T > V > Jedha
 
 ![pic](Images/Path.PNG)
+
 ---
 
 ## Mission 6
