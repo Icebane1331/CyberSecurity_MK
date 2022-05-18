@@ -1,4 +1,4 @@
-## Week 10 Homework Submission File: Randsomeware Riddles
+## Week 10 Homework Submission File: Ransomeware Riddles
 
 ---
 
@@ -43,7 +43,7 @@
 
 ---
 
-## Randsomware Decyrpted
+## Ransomware Decyrpted
 
 ![pic](Images/Decrytped.PNG)
 
