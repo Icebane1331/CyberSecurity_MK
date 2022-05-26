@@ -56,7 +56,7 @@
     resistance.theforce.net is not being redirected because it's not listed in the CNAME for theforce.net. 
     To fix this issue, under the Non-authoritative answer there should be a line that reads:
 
-    www.theforce.net	      canonical name = resistance.theforce.net.
+    resistance.theforce.net	      canonical name = theforce.net.
 
     This can be fixed by adding a CNAME record to their DNS host.
 
