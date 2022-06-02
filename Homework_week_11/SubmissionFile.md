@@ -36,7 +36,7 @@ The concept of defense in depth can be broken down into three different security
 
    Answer: 
    
-        IOA is when there is indication that there is a attack. IOC is when there is indication that a breach has happened.
+        IOA is when there is indication that there is an attack. IOC is when there is indication that a breach has happened.
 
 #### The Cyber Kill Chain
 
@@ -44,7 +44,7 @@ Name each of the seven stages for the Cyber Kill chain and provide a brief examp
 
 1. Stage 1: 
 
-        Reconnasissance. Examples: explores vulnerabilities, harvests login credentials
+        Reconnaissance. Examples: explores vulnerabilities, harvests login credentials
 
 2. Stage 2: 
 
@@ -109,7 +109,7 @@ alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or D
 
    Answer: 
    
-        An extrnal host using http ports is accessing the local host on any port to either run or download an EXE or DLL file
+        An external host using http ports is accessing the local host on any port to either run or download an EXE or DLL file
 
 2. What stage of the Cyber Kill Chain does this alert violate?
 
@@ -121,7 +121,7 @@ alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or D
 
    Answer: 
    
-        This is difficult to answer without more information as multiple types of attacks could happen this way such as downloading of malware. This could also just be a random download from an untrusted source that isn't malicious.
+        This is difficult to answer without more information as multiple types of attacks could happen this way such as downloading malware. This could also just be a random download from an untrusted source that isn't malicious.
 
 Snort Rule #3
 
@@ -259,7 +259,7 @@ Next, lists all currently configured firewall rules. This will give you a good i
 
 - What is the status of `http`, `https`, `smtp` and `pop3`?
 
-        Added to appropriate zones but only temporaly active
+        Added to appropriate zones but only temporarily active
 
 #### Add your adversaries to the Drop Zone.
 
@@ -273,7 +273,7 @@ Next, lists all currently configured firewall rules. This will give you a good i
 
 #### Make rules permanent then reload them:
 
-It's good practice to ensure that your `firewalld` installation remains nailed up and retains its services across reboots. This ensure that the network remains secured after unplanned outages such as power failures.
+It's good practice to ensure that your `firewalld` installation remains nailed up and retains its services across reboots. This ensures that the network remains secured after unplanned outages such as power failures.
 
 - Run the command that reloads the `firewalld` configurations and writes it to memory
 
@@ -281,7 +281,7 @@ It's good practice to ensure that your `firewalld` installation remains nailed u
 
 #### View active Zones
 
-Now, we'll want to provide truncated listings of all currently **active** zones. This a good time to verify your zone settings.
+Now, we'll want to provide truncated listings of all currently **active** zones. This is a good time to verify your zone settings.
 
 - Run the command that displays all zone services.
 
@@ -348,7 +348,7 @@ Now, we will work on another lab. Before you start, complete the following revie
 
    Answer 2:
 
-        HIDS (Host IDS) : designed to motitor important system files
+        HIDS (Host IDS) : designed to monitor important system files
 
 2. Describe how an IPS connects to a network.
 
@@ -400,7 +400,7 @@ Now, we will work on another lab. Before you start, complete the following revie
 
         Answer:
 
-            Techinal network control layer
+            Technical network control layer
 
     6. Data is classified at the wrong classification level.
 
@@ -430,7 +430,7 @@ Now, we will work on another lab. Before you start, complete the following revie
 
    Answer:
 
-        IP tracking and tracing but needs a supeona to ISPs in order to pin down where the IP is located. A GPS receiver on the laptop is more practical.
+        IP tracking and tracing but needs a subpeona to ISPs in order to pin down where the IP is located. A GPS receiver on the laptop is more practical.
 
 5. How could you prevent an attacker from booting a stolen laptop using an external hard drive?
 
@@ -511,19 +511,19 @@ Answer the following:
 
     Answer: 
 
-        They are trying to gain remote access of computers. It looks like they are after data to steal.
+        They are trying to gain remote access to computers. It looks like they are after data to steal.
 
 3. Describe observations and indicators that may be related to the perpetrators of the intrusion. Categorize your insights according to the appropriate stage of the cyber kill chain, as structured in the following table.
 
 | TTP | Example | Findings |
 | --- | --- | --- | 
-| **Reconnaissance** |  How did they attacker locate the victim? | Emails were sent out in a broad campaign. Luck of the draw maybe.
-| **Weaponization** |  What was it that was downloaded?| A zipfile
+| **Reconnaissance** |  How did the attacker locate the victim? | Emails were sent out in a broad campaign. Luck of the draw maybe.
+| **Weaponization** |  What was it that was downloaded?| A zip file
 | **Delivery** |    How was it downloaded?| It was attached to the email
-| **Exploitation** |  What does the exploit do?| It runs an excutable in the background while the victim thinks they are reading a real PDF file
+| **Exploitation** |  What does the exploit do?| It runs an executable in the background while the victim thinks they are reading a real PDF file
 | **Installation** | How is the exploit installed?| It's installed when the unzip the file which then install a script and an EXE
-| **Command & Control (C2)** | How does the attacker gain control of the remote machine?| The executable files are used to get a Trojan downloader which installs more executables containing and infostealer.
-| **Actions on Objectives** | What does the software that the attacker sent do to complete it's tasks?| After reboot it starts to phone home with it's intended executables and information they are probably after.
+| **Command & Control (C2)** | How does the attacker gain control of the remote machine?| The executable files are used to get a Trojan downloader which installs more executables containing an infostealer.
+| **Actions on Objectives** | What does the software that the attacker sent do to complete its tasks?| After reboot it starts to phone home with its intended executables and information they are probably after.
 
 
 
@@ -534,7 +534,7 @@ Answer the following:
 
     Answer: 
 
-        A couple of mitigations could be applied here. The IP address of the attacker can be outright blocked to prevent access to the network. Training employees not to open zipfiles unless prior knowledge of the file arriving (like conversations with your boss or co-worker and they said they will be sending a file). Anti-virus software installed on the network or host comptuer would also be a needed mitigation.
+        A couple of mitigations could be applied here. The IP address of the attacker can be outright blocked to prevent access to the network. Training employees not to open zip files unless prior knowledge of the file ahead of time (like conversations with your boss or co-worker and they said they will be sending a file). Antivirus software installed on the network or host computer would also be a needed mitigation.
 
 
 5. List your third-party references.
