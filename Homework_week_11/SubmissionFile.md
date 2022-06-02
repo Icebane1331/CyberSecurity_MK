@@ -109,7 +109,7 @@ alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or D
 
    Answer: 
    
-        An extrnal host using http ports
+        An extrnal host using http ports is accessing the local host on any port to either run or download an EXE or DLL file
 
 2. What stage of the Cyber Kill Chain does this alert violate?
 
