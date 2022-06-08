@@ -3,7 +3,7 @@
 ---
 ## Questions 
 
-Before you work through the questions below, please creat a new file and record your answers there. This will be your homework deliverable.
+Before you work through the questions below, please create a new file and record your answers there. This will be your homework deliverable.
 
 ## HTTP Requests and Responses
 
@@ -61,7 +61,7 @@ Answer the following questions about curl:
 
 10. What are the advantages of using curl over the browser?
 
-        Curl allows us to access a webserver or database when there is no UI or links available to do so.
+        Curl allows us to access a web server or database when there is no UI or links available to do so.
 
 11. Which curl option is used to change the request method?
 
@@ -164,7 +164,7 @@ Look through the following example HTTP request and response and answer the foll
 
         Apache
 
-23. Does this response have a user session associated to it?
+23. Does this response have a user session associated with it?
 
         Yes it does
         Set-Cookie: SessionID=5
@@ -175,7 +175,7 @@ Look through the following example HTTP request and response and answer the foll
 
 25. If your class covered security headers, what security request headers have been included?
 
-        X-Content-Type: NoSniff - prevents the client from "sniffing" the asset to determie if the file type is different than declared
+        X-Content-Type: NoSniff - prevents the client from "sniffing" the asset to determine if the file type is different than declared
 
         X-Frame-Options: DENY - prevents the use of the current page in a frame
 
@@ -369,7 +369,7 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 
 ![pic](Images/Ryan_denied.PNG)
 
-- Question: What happens this time?
+- Question: What happened this time?
 
         Access was still denied as Ryan doesn't have admin access to this page. Amanda does however.
 
