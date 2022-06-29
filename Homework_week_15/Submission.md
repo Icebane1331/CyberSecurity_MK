@@ -60,7 +60,10 @@ When complete, submit the file on BCS.
 ![pic](Images/Injection_hosts.PNG)
 ![pic](Images/hosts_verify.PNG)
 
-    There are multiple ways to mitigate against this. For starters is to not allow the site to accept system commands from user input. If it is absolutely needed to do so, you can whitelist commands to only accept their input strings. You and also limit what types of characters accepted. In this instance, by not allowing special characters, using "&&" would not allow the injection to happen.
+    There are multiple ways to mitigate against this. For starters is to not allow the site to accept system commands from user input.
+    If it is absolutely needed to do so, you can whitelist commands to only accept their input strings. 
+    You and also limit what types of characters accepted. 
+    In this instance, by not allowing special characters, using "&&" would not allow the injection to happen.
 
 ---
 
@@ -71,7 +74,9 @@ When complete, submit the file on BCS.
 
 ![pic](Images/Brute_Force.PNG)
 
-    The best way to mitigate against this is to prevent users from using previous passwords from the same list provided. Another option is to have a password management system where passwords are forced to change after a certain time frame and that previous passwords can't be reused (or at least can't be used again after 5 or 6 different passwords). Two factor authentication is yet another stragety against this cause even if the hacker has the password, they would need the second verification to access the site.
+    The best way to mitigate against this is to prevent users from using previous passwords from the same list provided. 
+    Another option is to have a password management system where passwords are forced to change after a certain time frame and that previous passwords can't be reused (or at least can't be used again after 5 or 6 different passwords). 
+    Two factor authentication is yet another stragety against this cause even if the hacker has the password, they would need the second verification to access the site.
 
 ---
 
@@ -84,7 +89,10 @@ When complete, submit the file on BCS.
 ![pic](Images/Beef_Notification.PNG)
 ![pic](Images/Beef_Geo2.png)
 
-    The number one way to prevent cross site scripting is to prohibit HTML code inputs. Having input validators is also extremely helpful in preventing XSS. Similar to validation, sanatizing the date before it gets excuted is another option to prevent this type of attack. One other option is using a Web Application Firewall that can specifically block XSS by blocking abnormal server requests.
+    The number one way to prevent cross site scripting is to prohibit HTML code inputs. 
+    Having input validators is also extremely helpful in preventing XSS.
+    Similar to validation, sanatizing the date before it gets excuted is another option to prevent this type of attack. 
+    One other option is using a Web Application Firewall that can specifically block XSS by blocking abnormal server requests.
 ---
 
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
