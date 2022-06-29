@@ -89,6 +89,8 @@ When complete, submit the file on BCS.
 ![pic](Images/Beef_Notification.PNG)
 ![pic](Images/Beef_Geo2.png)
 
+**Note** Geo location was blacked out for privacy.
+
     The number one way to prevent cross site scripting is to prohibit HTML code inputs. 
     Having input validators is also extremely helpful in preventing XSS.
     Similar to validation, sanitizing the date before it gets executed is another option to prevent this type of attack. 
