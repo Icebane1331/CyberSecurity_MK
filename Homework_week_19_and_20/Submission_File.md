@@ -1,4 +1,4 @@
-# Unit 20 Homework: Lets go Splunking!
+# Unit 20 Homework: Let's go Splunking!
 
 ---
 
@@ -34,7 +34,7 @@
 
 - How long did it take your systems to recover?
 
-      It took the systems apporximately 5 hours to recover
+      It took the systems approximately 5 hours to recover
  
 ## Step 2: Are We Vulnerable? 
 
